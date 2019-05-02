@@ -1,103 +1,438 @@
+<!-- Hamro Color
+Version 1.0
+Developed By: Bishworaj Poudel 
+Email: hamrocolor@gmail.com
+This project is open source. If you need source code or want to contribute visit github.com/hamrocolor 
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Hamro Movie App</title>
+  <title>Hamro Color</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+<!-- Containder Starting-->
 <div class="container">
-  <h1 class="text-primary text-uppercase text-center">Hamro Movie</h1>
-  
-  <div class="d-flex justify-content-end">
-    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">Add Movie</button>
-  </div>
-    <h2 class="text-danget">All Records</h2>
-
-    <div class="record_content">
-    
-
+<h1 class ="text-primary text-center">Hamro Color </h1>
+<p class="text-info text-center">With Best Color, You Can Design Best</p>
+<!-- For Blue Color -->
+<h4 class ="text-info">Attractive Blue</h4>
+<div class="card-columns">
+  <div class="card blue1">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#3F51B5</p>
     </div>
-
-    <!-- The Modal -->
-<div class="modal" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Add or Update Movie</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-        <div class="form-group">
-        <label for="moviename">Movie Name:</label>
-        <input type="text" name="moviename" id="moviename" class="form-control" placeholder="Prem Geet 2" required>
-        <label for="movielink">Movie Link:</label>
-        <input type="text" name="movielink" id="movielink" class="form-control" placeholder="https://abc.com" required>
-        <label for="thumbnailurl">Thumbnail Url:</label>
-        <input type="text" name="thumbnailurl" id="thumbnailurl" class="form-control" placeholder="Movie Name" required>
-        </div>
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="addMovies()">Save</button>
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-      </div>
-
+  </div>
+  <div class="card blue2">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#4527A0</p>
+    </div>
+  </div>
+  <div class="card blue3">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#3F51B5</p>
+    </div>
+  </div>
+  <div class="card blue4">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#311B92</p>
+    </div>
+  </div> 
+  <div class="card blue5">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#304FFE</p>
+    </div>
+  </div>
+  <div class="card blue6">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#03A9F4</p>
     </div>
   </div>
 </div>
+<div class="card-columns">
+  <div class="card blue7">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#30336b</p>
+    </div>
+  </div>
+  <div class="card blue8">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#4D8FAC</p>
+    </div>
+  </div>
+  <div class="card blue9">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#003171</p>
+    </div>
+  </div>
+  <div class="card blue10">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#264348</p>
+    </div>
+  </div> 
+  <div class="card blue11">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#044F67</p>
+    </div>
+  </div>
+  <div class="card blue12">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#4B77BE</p>
+    </div>
+  </div>
 </div>
+<br>
+<!-- For Red Color -->
+<h4 class ="text-danger">Amazing Red</h4>
+<div class="card-columns">
+  <div class="card red1">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#FF362E</p>
+    </div>
+  </div>
+  <div class="card red2">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#E8290B</p>
+    </div>
+  </div>
+  <div class="card red3">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#E44236</p>
+    </div>
+  </div>
+  <div class="card red4">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#FF4848</p>
+    </div>
+  </div> 
+  <div class="card red5">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#B83227</p>
+    </div>
+  </div>
+  <div class="card red6">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#EB4D4B</p>
+    </div>
+  </div>
+</div>
+<div class="card-columns">
+  <div class="card red7">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#E83350</p>
+    </div>
+  </div>
+  <div class="card red8">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#D50000</p>
+    </div>
+  </div>
+  <div class="card red9">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#FF1744</p>
+    </div>
+  </div>
+  <div class="card red10">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#D32F2F</p>
+    </div>
+  </div> 
+  <div class="card red11">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#E53935</p>
+    </div>
+  </div>
+  <div class="card red12">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#F44336</p>
+    </div>
+  </div>
+</div>
+<br>
+<!-- For Green Color -->
+<h4 class ="text-success">Nature Like Green</h4>
+<div class="card-columns">
+  <div class="card green1">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#218F76</p>
+    </div>
+  </div>
+  <div class="card green2">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#45CE30</p>
+    </div>
+  </div>
+  <div class="card green3">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#2ECC72</p>
+    </div>
+  </div>
+  <div class="card green4">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#019031</p>
+    </div>
+  </div> 
+  <div class="card green5">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#6AB04C</p>
+    </div>
+  </div>
+  <div class="card green6">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#A3CB37</p>
+    </div>
+  </div>
+</div>
+<div class="card-columns">
+  <div class="card green7">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#43BE31</p>
+    </div>
+  </div>
+  <div class="card green8">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#6AB04A</p>
+    </div>
+  </div>
+  <div class="card green9">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#26AE60</p>
+    </div>
+  </div>
+  <div class="card green10">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#BACC58</p>
+    </div>
+  </div> 
+  <div class="card green11">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#1B5E20</p>
+    </div>
+  </div>
+  <div class="card green12">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#2E7D32</p>
+    </div>
+  </div>
+</div>
+<br>
+<!-- For grey Color -->
+<h4 class ="text-dark">Super Grey</h4>
+<div class="card-columns">
+  <div class="card grey1">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#4C4B4B</p>
+    </div>
+  </div>
+  <div class="card grey2">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#7B8788</p>
+    </div>
+  </div>
+  <div class="card grey3">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#A4B0BD</p>
+    </div>
+  </div>
+  <div class="card grey4">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#DAE0E2</p>
+    </div>
+  </div> 
+  <div class="card grey5">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#535C68</p>
+    </div>
+  </div>
+  <div class="card grey6">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#333945</p>
+    </div>
+  </div>
+</div>
+<div class="card-columns">
+  <div class="card grey7">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#777E8B</p>
+    </div>
+  </div>
+  <div class="card grey8">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#8395A7</p>
+    </div>
+  </div>
+  <div class="card grey9">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#2C3335</p>
+    </div>
+  </div>
+  <div class="card grey10">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#99AAAB</p>
+    </div>
+  </div> 
+  <div class="card grey11">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#2F363F</p>
+    </div>
+  </div>
+  <div class="card grey12">
+    <div class="card-body text-center">
+    <p class="card-text text-white">#212121</p>
+    </div>
+  </div>
+</div>
+<br>
 
+<!-- Sunnish Yellow Color -->
+<h4 class ="text-warning">Sunnish Yellow</h4>
+<div class="card-columns">
+  <div class="card yellow1">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#4C4B4B</p>
+    </div>
+  </div>
+  <div class="card yellow2">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#7B8788</p>
+    </div>
+  </div>
+  <div class="card yellow3">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#A4B0BD</p>
+    </div>
+  </div>
+  <div class="card yellow4">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#DAE0E2</p>
+    </div>
+  </div> 
+  <div class="card yellow5">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#535C68</p>
+    </div>
+  </div>
+  <div class="card yellow6">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#333945</p>
+    </div>
+  </div>
+</div>
+<div class="card-columns">
+  <div class="card yellow7">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#777E8B</p>
+    </div>
+  </div>
+  <div class="card yellow8">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#8395A7</p>
+    </div>
+  </div>
+  <div class="card yellow9">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#2C3335</p>
+    </div>
+  </div>
+  <div class="card yellow10">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#99AAAB</p>
+    </div>
+  </div> 
+  <div class="card yellow11">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#2F363F</p>
+    </div>
+  </div>
+  <div class="card yellow12">
+    <div class="card-body text-center">
+    <p class="card-text text-white">#212121</p>
+    </div>
+  </div>
+</div>
+<br>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script>
+<!-- Other Best Color -->
+<h4 class ="text-info">Other Best Color</h4>
+<div class="card-columns">
+  <div class="card best1">
+    <div class="card-body text-center">
+      <p class="card-text text-black">#EAF0F1</p>
+    </div>
+  </div>
+  <div class="card best2">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#01CBC6</p>
+    </div>
+  </div>
+  <div class="card best3">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#1ABC9C</p>
+    </div>
+  </div>
+  <div class="card best4">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#2ECC71</p>
+    </div>
+  </div> 
+  <div class="card best5">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#FD9644</p>
+    </div>
+  </div>
+  <div class="card best6">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#2C2C54</p>
+    </div>
+  </div>
+</div>
+<div class="card-columns">
+  <div class="card best7">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#FF793F</p>
+    </div>
+  </div>
+  <div class="card best8">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#2C2C54</p>
+    </div>
+  </div>
+  <div class="card best9">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#44BD32</p>
+    </div>
+  </div>
+  <div class="card best10">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#E84118</p>
+    </div>
+  </div> 
+  <div class="card best11">
+    <div class="card-body text-center">
+      <p class="card-text text-white">#8C7AE6</p>
+    </div>
+  </div>
+  <div class="card best12">
+    <div class="card-body text-center">
+    <p class="card-text text-white">#7F8FA6</p>
+    </div>
+  </div>
+</div>
+<br>
 
-function addMovies(){
-    var movieName = $('#moviename').val();
-    var movieLink = $('#movielink').val();
-    var thumbnail = $('thumbnailurl').val();
-    
-    $.ajax({
-        url: "backend.php",
-        type: "POST",
-        data: {
-            movieName: movieName,
-            movieLink: movieLink,
-            thumbnail: thumbnail,
-        },
-        success: function(data, status){
-            readRe
-        }
-    });
-
-}
-
-function addMovie(){
-    var movieName = $('#moviename').val();
-    var movielink = $('#movielink').val();
-    var thumbnailurl = $('#thumbnailurl').val();
-
-    $.ajax({
-        url: "backend.php",
-        type: 'post',
-        data: {movieName: movieName, movielink:movieName, thumbnailurl:thumbnailurl},
-
-        success:function(data, status){
-            readRecords();
-        }
-    });
-}
-</script>
+<!-- For Footer -->
+<h3 class="text-center">
+<kbd>Copyright &copy; 2019 Open Source Project Statred By <a href="https://brp.com.np">Bishworaj Poudel</a> </kbd><br>
+<kbd>Email: hamrocolor@gmail.com</kbd>
+</h3>
+</div>
+<!-- Container Ending -->
 </body>
 </html>
