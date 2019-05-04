@@ -1,4 +1,5 @@
-# hamrocolor
-Open Source Color Picker Application
+#Hamro Color 
 
-Contribute to the project.
+Hamro Color is an Open Source Code where Anyone Can Contribute to the Project.
+
+>Happy Coding.
