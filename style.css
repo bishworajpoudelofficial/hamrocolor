@@ -1,340 +1,59 @@
-/* Welcome to Hamro Color. Open Source Color Chooser Site */
-
-/* For 12 Best Blue Color.*/
-
-.blue1{
-background-color: #3F51B5;
+body{
+    margin: 0;
+    padding: 0;
+    background: #e74c3c;
+    font-family: sans-serif;
 }
-
-.blue2{
-background-color: #4527A0;
+.color{
+    margin-top: 200px;
+    text-align: center;
+    padding-bottom: 10px;
 }
-.blue3{
-background-color: #3F51B5;
+#hex{
+    display: inline-block;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-right: 10px;
 }
-
-.blue4{
-background-color: #311B92;    
+.color .btn-small
+{
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 20px;
 }
-
-.blue5{
-background-color: #304FFE;
+.btn-large{
+    text-align: center;
 }
-
-.blue6{
-background-color: #03A9F4;    
+.btn-large button{
+    border: 1.5px solid #fff;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+    cursor: pointer;
+    border-radius: 40px;
+	padding: 20px 75px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
 }
-
-.blue7{
-background-color: #30336b;   
+.header{
+    text-align: center;
 }
-
-.blue8{
-background-color: #4D8FAC;
+h1{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    padding-bottom: 0%;
+    color: #BCD3D3;
 }
-
-.blue9{
-background-color: #003171;    
-}
-
-.blue10{
-background-color: #264348;    
-}
-
-.blue11{
-background-color: #044F67;        
-}
-.blue12{
-    background-color: #4B77BE;        
-}
-
-/* For 12 Best Red Color */
-
-.red1{
-    background-color: #FF362E;
-    }
-    
-.red2{
-    background-color: #E8290B;
-    }
-.red3{
-    background-color: #E44236;
-    }
-    
-.red4{
-    background-color: #FF4848;    
-    }
-    
-.red5{
-    background-color: #B83227;
-    }
-    
-.red6{
-    background-color: #EB4D4B;    
-    }
-    
-.red7{
-    background-color: #E83350;   
-    }
-    
-.red8{
-    background-color: #D50000;
-    }
-    
-.red9{
-    background-color: #FF1744;    
-    }
-    
-.red10{
-    background-color: #D32F2F;    
-    }
-    
-.red11{
-    background-color: #E53935;        
-    }
-    
-.red12{
-    background-color: #F44336;    
-    }
-    
-/* For 12 Best Green Color */
-
-.green1{
-    background-color: #FF362E;
-    }
-    
-.green2{
-    background-color: #E8290B;
-    }
-.green3{
-    background-color: #E44236;
-    }
-    
-.green4{
-    background-color: #FF4848;    
-    }
-    
-.green5{
-    background-color: #B83227;
-    }
-    
-.green6{
-    background-color: #EB4D4B;    
-    }
-    
-.green7{
-    background-color: #E83350;   
-    }
-    
-.green8{
-    background-color: #D50000;
-    }
-    
-.green9{
-    background-color: #FF1744;    
-    }
-    
-.green10{
-    background-color: #D32F2F;    
-    }
-    
-.green11{
-    background-color: #E53935;        
-    }
-    
-.green12{
-    background-color: #F44336;    
-    }
-    
-/* For 12 Best Green Color */
-
-.green1{
-    background-color: #218F76;
-    }
-    
-.green2{
-    background-color: #45CE30;
-    }
-.green3{
-    background-color: #2ECC72;
-    }
-    
-.green4{
-    background-color: #019031;    
-    }
-    
-.green5{
-    background-color: #6AB04C;
-    }
-    
-.green6{
-    background-color: #A3CB37;    
-    }
-    
-.green7{
-    background-color: #43BE31;   
-    }
-    
-.green8{
-    background-color: #6AB04A;
-    }
-    
-.green9{
-    background-color: #26AE60;    
-    }
-    
-.green10{
-    background-color: #BACC58;    
-    }
-    
-.green11{
-    background-color: #1B5E20;        
-    }
-    
-.green12{
-    background-color: #2E7D32;    
-}
-/* For 12 Best grey Color.*/
-
-.grey1{
-    background-color: #4C4B4B;
-    }
-    
-.grey2{
-    background-color: #7B8788;
-    }
-.grey3{
-    background-color: #A4B0BD;
-    }
-    
-.grey4{
-    background-color: #DAE0E2;    
-    }
-    
-.grey5{
-    background-color: #535C68;
-    }
-    
-.grey6{
-    background-color: #333945;    
-    }
-    
-.grey7{
-    background-color: #777E8B;   
-    }
-    
-.grey8{
-    background-color: #8395A7;
-    }
-    
-.grey9{
-    background-color: #2C3335;    
-    }
-    
-.grey10{
-    background-color: #99AAAB;    
-    }
-    
-.grey11{
-    background-color: #2F363F;        
-    }
-.grey12{
-    background-color: #212121;        
-    }
-
-/* For 12 Best Yellow Color.*/
-
-.yellow1{
-    background-color: #F9A602;
-    }
-    
-.yellow2{
-    background-color: #FFD300;
-    }
-.yellow3{
-    background-color: #FFC30B;
-    }
-    
-.yellow4{
-    background-color: #C49102;    
-    }
-    
-.yellow5{
-    background-color: #FDA50F;
-    }
-    
-.yellow6{
-    background-color: #FFBF00;    
-    }
-    
-.yellow7{
-    background-color: #FEDC56;   
-    }
-    
-.yellow8{
-    background-color:#EEC213;
-    }
-    
-.yellow9{
-    background-color: #E5B143;    
-    }
-    
-.yellow10{
-    background-color: #F4C724;    
-    }
-    
-.yellow11{
-    background-color: #E1DA00;        
-    }
-.yellow12{
-    background-color: #DFAF2B;        
-}
-/* For 12 Best best Color.*/
-
-.best1{
-    background-color: #EAF0F1;
-    }
-    
-.best2{
-    background-color: #01CBC6;
-    }
-.best3{
-    background-color: #1ABC9C;
-    }
-    
-.best4{
-    background-color: #2ECC71;    
-    }
-    
-.best5{
-    background-color: #FD9644;
-    }
-    
-.best6{
-    background-color: #2C2C54;    
-    }
-    
-.best7{
-    background-color: #FF793F;   
-    }
-    
-.best8{
-    background-color:#2C2C54;
-    }
-    
-.best9{
-    background-color: #44BD32;    
-    }
-    
-.best10{
-    background-color: #E84118;    
-    }
-    
-.best11{
-    background-color: #8C7AE6;        
-    }
-.best12{
-    background-color: #7f8fa6;        
-}
-              
-
